@@ -4,14 +4,14 @@ import './App.css';
 import {Camera} from "./camera/Camera";
 
 function App() {
-  return (
+    return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-      <body>
+      <div>
         <Camera/>
-      </body>
+      </div>
     </div>
   );
 }
