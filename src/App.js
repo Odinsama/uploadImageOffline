@@ -10,7 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <div>
-        <Camera/>
+        <input type={"file"} accept={"image/*"}/>
       </div>
     </div>
   );
